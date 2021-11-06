@@ -184,10 +184,11 @@
                 "support.type.primitive.ts",
                 "support.type.primitive.tsx",
                 "variable.language.this.java",
+                "variable.language.java"
                 "variable.language.this.js",
                 "variable.language.this.ts",
                 "variable.language.this.tsx",
-                "variable.language.super.tsx"
+                "variable.language.super.tsx",
             ],
             "settings": {
                 "foreground": "#cc7832"
@@ -578,8 +579,17 @@
         }
     ],
     "semanticTokenColors": {
-        "variable:java": {
+        "property:java": {
             "foreground": "#9876aa"
+        },
+        "property.static:java": {
+            "fontStyle": "italic"
+        },
+        "method.static:java": {
+            "fontStyle": "italic"
+        },
+        "method.static.declaration:java": {
+            "fontStyle": "normal"
         },
         "enumMember:rust": {
             "foreground": "#9876aa"
